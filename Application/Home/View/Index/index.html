@@ -1,0 +1,24 @@
+List1_star:
+<volist name="dat2a" id="v1o">
+
+	<volist name="v1o" id="vo2"><!-- 21 -->
+		{$vo2.0}-{$vo2.1}
+
+<!--		<volist name="vo2" id="vo3">		</volist>	-->
+		<br />
+	</volist>
+	<br />
+</volist>
+List1End.
+
+
+
+
+<volist name="dat1a" id="v21o"> <!-- 11 -->
+    {$v21o.id}-{$v21o.uno}-{$v21o.dat1a} ||
+	<volist name="v21o" id="vo22">
+		{$vo22.0}={vo22.1}
+			<br/>
+	</volist>
+	
+</volist><!-- 11-->
